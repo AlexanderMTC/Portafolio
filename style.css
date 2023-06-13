@@ -539,10 +539,7 @@ p {
   font-weight: bold;
   font-size: 2rem;
   text-decoration: none;
-}
-
-.logo span {
-  font-weight: 200;
+  letter-spacing: 0.4rem;
 }
 
 .portfolio-card {
@@ -596,16 +593,16 @@ p {
 }
 
 .service-card:hover {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .service-card h3 {
   color: var(--title-color);
 }
 
-.service-card svg {
+.service-card svg,
+.service-card img {
   margin-bottom: 1.25rem;
-  fill: var(--first-color);
 }
 
 .social-media a {
